@@ -1,115 +1,22 @@
-Basic Commands
-Clone a repository:
-
-Bash
-git clone <repository_url>
-Use code with caution.
-
-Check the current branch:
-
-Bash
-git branch
-Use code with caution.
-
-Switch branches:
-
-Bash
-git checkout <branch_name>
-Use code with caution.
-
-Create a new branch:
-
-Bash
-git checkout -b <new_branch_name>
-Use code with caution.
-
-Add changes to the staging area:
-
-Bash
-git add <file_name>
-Use code with caution.
-
-or
-
-Bash
-git add .  # Add all changes
-Use code with caution.
-
-Commit changes:
-
-Bash
-git commit -m "Commit message"
-Use code with caution.
-
-Push changes to a remote repository:
-
-Bash
-git push origin <branch_name>
-Use code with caution.
-
-Pull changes from a remote repository:
-
-Bash
-git pull origin <branch_name>
-Use code with caution.
-
-Useful Tips
-View commit history:
-
-Bash
-git log
-Use code with caution.
-
-Compare branches:
-
-Bash
-git diff <branch1> <branch2>
-Use code with caution.
-
-Undo the last commit:
-
-Bash
-git reset --soft HEAD~1
-Use code with caution.
-
-Discard changes in the working directory:
-
-Bash
-git checkout -- <file_name>
-Use code with caution.
-
-Stash changes temporarily:
-
-Bash
-git stash
-Use code with caution.
-
-Apply stashed changes:
-
-Bash
-git stash pop
-Use code with caution.
-
-Additional Commands
-Show the status of the working directory:
-
-Bash
-git status
-Use code with caution.
-
-List remote repositories:
-
-Bash
-git remote -v
-Use code with caution.
-
-Rename a branch:
-
-Bash
-git branch -m <old_name> <new_name>
-Use code with caution.
-
-Delete a branch:
-
-Bash
-git branch -D <branch_name>
+Command	Description
+git init	Initializes a new Git repository
+git clone <url>	Clones a remote repository
+git status	Shows the current state of the working directory
+git add <file>	Adds a file to the staging area
+git commit -m "message"	Commits changes with a message
+git push origin <branch>	Pushes changes to a remote branch
+git pull origin <branch>	Pulls changes from a remote branch
+Command	Description
+git branch	Lists all local branches
+git branch <branch_name>	Creates a new branch
+git checkout <branch_name>	Switches to a different branch
+git merge <branch_name>	Merges a branch into the current one
+git rebase <branch_name>	Rebases the current branch onto another
+Sources	
+Command	Description
+git log	Shows commit history
+git diff	Shows differences between commits or files
+git reset --hard HEAD~1	Undoes the last commit
+git checkout -- <file>	Discards changes to a file
+git stash	Temporarily saves changes
+git stash pop	Applies the most recent stashed changes
