@@ -1,0 +1,124 @@
+Command	Description
+ls	List files and directories
+cd	Change directory
+pwd	Print working directory
+mkdir <directory_name>	Create a new directory
+rm <file_name>	Remove a file
+rmdir <directory_name>	Remove an empty directory
+mv <source> <destination>	Move or rename a file or directory
+cp <source> <destination>	Copy a file or directory
+
+Command	Description
+cat <file_name>	Display the contents of a file
+head <file_name>	Display the first few lines of a file
+tail <file_name>	Display the last few lines of a file
+less <file_name>	View a file page by page
+grep <pattern> <file_name>	Search for a pattern in a file
+wc -l <file_name>	Count the number of lines in a file
+wc -w <file_name>	Count the number of words in a file
+wc -c <file_name>	Count the number of characters in a file
+
+Command	Description
+nano <file_name>	Simple text editor
+vim <file_name>	Powerful text editor
+sed	Stream editor for text manipulation
+awk	Text processing language
+
+Command	Description
+useradd <username>	Create a new user
+passwd <username>	Change a user's password
+userdel <username>	Delete a user
+sudo	Execute commands with root privileges
+
+Command	Description
+ps	List running processes
+kill <process_id>	Kill a process
+top	Display system processes
+htop	Interactive process viewer
+
+Command	Description
+ifconfig	Display network interface information
+ping <hostname>	Send ping packets to a host
+ssh <username>@<hostname>	Log into a remote machine via SSH
+scp <source> <destination>	Copy files securely over SSH
+
+Command	Description (Debian/Ubuntu)	Description (Fedora/CentOS)
+apt	Package manager	yum
+apt-get update	Update package lists	yum update
+apt-get install <package_name>	Install a package	yum install <package_name>
+apt-get remove <package_name>	Remove a package	yum remove <package_name>
+
+# Linux Cheat Sheet
+
+**Basic Commands**
+
+| Command | Description |
+|---|---|
+| `ls` | List files and directories |
+| `cd` | Change directory |
+| `pwd` | Print working directory |
+| `mkdir <directory_name>` | Create a new directory |
+| `rm <file_name>` | Remove a file |
+| `rmdir <directory_name>` | Remove an empty directory |
+| `mv <source> <destination>` | Move or rename a file or directory |
+| `cp <source> <destination>` | Copy a file or directory |
+
+**File Management**
+
+| Command | Description |
+|---|---|
+| `cat <file_name>` | Display the contents of a file |
+| `head <file_name>` | Display the first few lines of a file |
+| `tail <file_name>` | Display the last few lines of a file |
+| `less <file_name>` | View a file page by page |
+| `grep <pattern> <file_name>` | Search for a pattern in a file |
+| `wc -l <file_name>` | Count the number of lines in a file |
+| `wc -w <file_name>` | Count the number of words in a file |
+| `wc -c <file_name>` | Count the number of characters in a file |
+
+**Text Editing**
+
+| Command | Description |
+|---|---|
+| `nano <file_name>` | Simple text editor |
+| `vim <file_name>` | Powerful text editor |
+| `sed` | Stream editor for text manipulation |
+| `awk` | Text processing language |
+
+**User Management**
+
+| Command | Description |
+|---|---|
+| `useradd <username>` | Create a new user |
+| `passwd <username>` | Change a user's password |
+| `userdel <username>` | Delete a user |
+| `sudo` | Execute commands with root privileges |
+
+**Process Management**
+
+| Command | Description |
+|---|---|
+| `ps` | List running processes |
+| `kill <process_id>` | Kill a process |
+| `top` | Display system processes |
+| `htop` | Interactive process viewer |
+
+**Networking**
+
+| Command | Description |
+|---|---|
+| `ifconfig` | Display network interface information |
+| `ping <hostname>` | Send ping packets to a host |
+| `ssh <username>@<hostname>` | Log into a remote machine via SSH |
+| `scp <source> <destination>` | Copy files securely over SSH |
+
+**Package Management**
+
+| Command | Description (Debian/Ubuntu) | Description (Fedora/CentOS) |
+|---|---|---|
+| `apt` | Package manager | `yum` | Package manager |
+| `apt-get update` | Update package lists | `yum update` | Update package lists |
+| `apt-get install <package_name>` | Install a package | `yum install <package_name>` | Install a package |
+| `apt-get remove <package_name>` | Remove a package | `yum remove <package_name>` | Remove a package |
+
+**Remember to adapt this cheat sheet to your specific Linux distribution and needs. You can customize it further by adding more commands and tips.**
